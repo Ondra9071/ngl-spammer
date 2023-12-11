@@ -17,5 +17,6 @@ Script is limited by amount of requests, so it will be slower after some time. B
 pip install requests
 pip install random
 pip install string
+pip install colorama
 ```
 The script is not intended to harm the service, the authors can fix this bug at any time. If it bothers you, contact me at kontakt@ondrejpacovsky.cz, and I will remove the script.
