@@ -1,10 +1,10 @@
-# Simple NGL spammer by @Ondra9071
-# Github: https://github.com/Ondra9071/ngl-spammer
-
 import requests
 import random
 import string
+import os
+from colorama import Fore, Back, Style # Just colored text, not important
 
+os.system("cls")
 url = "https://ngl.link/api/submit"
 
 print("""
@@ -18,6 +18,9 @@ print("""
 |__/  \__/ \______/ |________/       \______/ |__/      |__/  |__/|__/     |__/|__/     |__/|________/|__/  |__/
       
 IMPORTANT: The script is for educational purposes only and use of the script is at your own risk.
+
+Username is the ending of the NGL link:
+ngl.link/USERNAME
       """)
 
 _username = input("Username: ").lower()
@@ -36,6 +39,6 @@ while True:
     response = requests.post(url, data=data)
 
     if response.status_code == 200:
-        print(f"Request sent to @{_username}")
+        print(Fore.GREEN + f"Request sent to @{_username}" + Style.RESET_ALL)
     else:
         continue
