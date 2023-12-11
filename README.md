@@ -1,4 +1,4 @@
-<a href="https://www.ondra907.com/view/rps/index.html">
+<a href="https://replit.com/@OndrejPacovsky/NGLlink-Spammer">
         <img src="https://img.shields.io/badge/RUN%20ON%20REPlIT-F26207?style=for-the-badge&logo=replit&logoColor=white" alt="Credly">
     </a>
 
