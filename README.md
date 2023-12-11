@@ -1,3 +1,7 @@
+<a href="https://www.ondra907.com/view/rps/index.html">
+        <img src="https://img.shields.io/badge/RUN%20ON%20REPlIT-F26207?style=for-the-badge&logo=replit&logoColor=white" alt="Credly">
+    </a>
+
 # IMPORTANT: The script is for educational purposes only and use of the script is at your own risk.
 Simple python script to spam users with a random sequence of characters at [NGL.link](https://ngl.link/)
 
