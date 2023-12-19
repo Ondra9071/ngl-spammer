@@ -30,7 +30,7 @@ ngl.link/USERNAME
 _username = input("Username: ").lower()
 input("Press ENTER to send spam...")
 
-while True: # starting fast then being slow because of the rate limit
+while True:
     _question = ''.join(random.choice(string.ascii_letters + string.digits) for _ in range(1000))
     data = {
     "username": _username,
