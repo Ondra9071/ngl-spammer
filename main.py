@@ -5,7 +5,7 @@ import os
 from colorama import Fore, Back, Style # Just colored text, not important
 
 os.system("cls")
-url = "https://ngl.link/api/submit"
+url = "https://ngl.link/api/submit" # ngl api
 
 print("""
  /$$   /$$  /$$$$$$  /$$              /$$$$$$  /$$$$$$$   /$$$$$$  /$$      /$$ /$$      /$$ /$$$$$$$$ /$$$$$$$ 
@@ -34,11 +34,11 @@ while True:
     "deviceId": "",
     "gameSlug": "",
     "referrer": ""
-    }
+    } # format of the request which is being sent to ngl server
 
     response = requests.post(url, data=data)
 
     if response.status_code == 200:
         print(Fore.GREEN + f"Request sent to @{_username}" + Style.RESET_ALL)
     else:
-        continue
+        continue # continues because sending request failed (mostly because of the lot of requests sent in the moment)
