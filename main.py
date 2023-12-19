@@ -1,7 +1,3 @@
-# made by ondra907 & shitenvy <3
-# The script is for educational purposes only and use of the script is at your own risk.
-# check readme for more info ty
-
 import requests
 import random
 import string
